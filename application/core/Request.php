@@ -6,6 +6,10 @@
  * Time: 17:43
  */
 
+
+/*
+ * 管理を簡単にするためリクエストの情報はすべてrequestクラスで扱う
+ * */
 class Request {
     public function isPost() {
         if ($_SERVER["REQUEST_METHOD"] === "POST") {
